@@ -1,0 +1,36 @@
+body {
+    padding-top: 48px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 48px 0 0 0;
+    box-shadow: inset -1px 0 0 rgb(0, 0, 0, 0.3);
+}
+
+.sidebar-head {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sidebar .nav-link {
+    font-weight: 700;
+    color: #999;
+}
+
+.sidebar .nav-link.active {
+    color: blue;
+}
+
+.sidebar li a {
+    color: gray;
+}
+
+.sidebar li a:hover {
+    color: blue;
+}
